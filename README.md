@@ -2,22 +2,23 @@
 
 [![Download GitSearch](https://img.shields.io/badge/Download-GitSearch.exe-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/rkkizar777-design/git.store/releases/download/v1.0.0/GitSearch.exe)
 
-*(v1.0.0 • 64 MB • Standalone Executable)*
+*(v1.0.0 • 64 MB • Standalone Executable for Windows)*
 
-</div>
+<br/>
 
-<img width="1365" height="762" alt="image" src="https://github.com/user-attachments/assets/3fd6ca45-400c-4b11-82f9-819d97f61222" />
-<div align="center">
+<img width="1365" height="762" alt="GitSearch App Preview" src="https://github.com/user-attachments/assets/3fd6ca45-400c-4b11-82f9-819d97f61222" />
+
+<br/><br/>
 
 # 🔭 GitSearch
 
 ### *The Next-Generation AI-Powered GitHub Exploration Engine*
 
-[![Stars](https://img.shields.io/github/stars/your-username/GitSearch?style=for-the-badge&logo=github&color=yellow)](https://github.com/your-username/GitSearch/stargazers)
-[![Forks](https://img.shields.io/github/forks/your-username/GitSearch?style=for-the-badge&logo=github&color=orange)](https://github.com/your-username/GitSearch/network/members)
-[![Issues](https://img.shields.io/github/issues/your-username/GitSearch?style=for-the-badge&logo=github&color=red)](https://github.com/your-username/GitSearch/issues)
+[![Stars](https://img.shields.io/github/stars/rkkizar777-design/git.store?style=for-the-badge&logo=github&color=yellow)](https://github.com/rkkizar777-design/git.store/stargazers)
+[![Forks](https://img.shields.io/github/forks/rkkizar777-design/git.store?style=for-the-badge&logo=github&color=orange)](https://github.com/rkkizar777-design/git.store/network/members)
+[![Issues](https://img.shields.io/github/issues/rkkizar777-design/git.store?style=for-the-badge&logo=github&color=red)](https://github.com/rkkizar777-design/git.store/issues)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/your-username/GitSearch)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/rkkizar777-design/git.store)
 [![Python](https://img.shields.io/badge/Backend-FastAPI%20%7C%20Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/Frontend-React%20%7C%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![Speed](https://img.shields.io/badge/Performance-0ms%20Live%20Trending-44D62C?style=for-the-badge&logo=lightning&logoColor=white)](#-performance-benchmarks)
@@ -28,7 +29,7 @@
 
 <br/>
 
-[ Key Features ](#-key-features) • [ Benchmarks ](#-performance-benchmarks) • [ Quick Start ](#-installation--usage) • [ Architecture ](#-how-it-works-architecture) • [ Contributing ](#-contributing)
+[ Download Executable ](https://github.com/rkkizar777-design/git.store/releases/download/v1.0.0/GitSearch.exe) • [ Key Benefits ](#-what-gitsearch-gives-you) • [ Key Features ](#-key-features) • [ Benchmarks ](#-performance-benchmarks) • [ Quick Start ](#-installation--usage) • [ Architecture ](#-how-it-works-architecture)
 
 <br/>
 
@@ -37,15 +38,36 @@
 ---
 
 > [!NOTE]  
-> **GitSearch** is designed to replace slow, clunky browser searching with a instant desktop workflow, custom collections, and AI-powered repository discovery.
+> **GitSearch** replaces slow, clunky browser search tabs with an ultra-fast desktop workspace, AI query intelligence, custom color-coded collections, and instant 0ms trending discovery.
+
+---
+
+## 🎁 What GitSearch Gives You
+
+Why do developers love **GitSearch**? Here is what you get out-of-the-box:
+
+### 1. ⏱️ Save Hours of Manual Searching
+No more opening 20 browser tabs just to find a working library. GitSearch's **AI Semantic Query Engine** translates plain natural language (e.g. *"lightweight rust web framework for microservices"*) into perfect GitHub search syntax, instantly filtering out abandoned projects and low-quality forks.
+
+### 2. ⚡ Sub-Millisecond Instant Trending (0ms Response)
+Standard GitHub web search takes 3 to 6 seconds to fetch trending projects. GitSearch runs an **in-memory background auto-warmer** that continuously refreshes trending repositories across AI, Python, TypeScript, Rust, and Go — delivering **instant 0ms page transitions**.
+
+### 3. 📱 Seamless Phone-to-PC Remote Sync
+- **Instant Auto-Login:** Scan the dynamic QR code with your phone camera and you're instantly signed in on your mobile browser.
+- **Phone Lock Mode:** Need to step away from your computer? Lock your PC screen remotely right from your phone.
+- **Shared Session:** View your bookmarks, search history, and collections seamlessly on both PC and mobile.
+
+### 4. 📁 Total Organization (Collections, Notes & Tags)
+GitHub only lets you star repositories in a single endless list. GitSearch gives you **Custom Color-Coded Collections**, private markdown notes, and search tags stored 100% locally in your SQLite database.
+
+### 5. 🔒 Complete Privacy & Local Persistence
+Your search history, bookmarks, notes, and login tokens are saved locally in `%LOCALAPPDATA%\GitSearch`. No third-party data tracking, no cloud telemetry.
 
 ---
 
 ## ⚡ Performance Benchmarks & Comparison
 
-Why use **GitSearch** over standard GitHub web search? Here is how it compares:
-
-| Metric / Feature | 🌐 Standard GitHub Web Search | 🔭 GitSearch Engine | Improvement |
+| Metric / Feature | 🌐 Standard GitHub Web Search | 🔭 GitSearch Desktop Engine | Improvement |
 | :--- | :---: | :---: | :---: |
 | **Trending Feed Latency** | 3.5s – 6.0s | **0ms (Instant Cache)** | **⚡ ~5000% Faster** |
 | **Query Understanding** | Exact Keyword Match | **AI Semantic Enhancement** | **🧠 Smart Intent** |
@@ -120,7 +142,7 @@ graph TD
 ## 💻 Installation & Usage
 
 ### 🚀 Desktop Installation (Windows)
-1. Download **`GitSearch.exe`** from [Releases](https://github.com/your-username/GitSearch/releases).
+1. Download **`GitSearch.exe`** from [Releases](https://github.com/rkkizar777-design/git.store/releases/download/v1.0.0/GitSearch.exe).
 2. Double-click **`GitSearch.exe`**.
 3. Select your preferred installation directory or keep the default (`%LOCALAPPDATA%\GitSearch`).
 4. Click **Install Now**.
@@ -130,16 +152,51 @@ graph TD
 
 ## ⚙️ Development Setup
 
+If you wish to build or modify GitSearch from source code:
+
+### Prerequisites
+- **Node.js** (v18+)
+- **Python** (v3.10+)
+- **PyInstaller**
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/rkkizar777-design/git.store.git
+cd git.store/_SourceCode
+
+# 2. Install Frontend Dependencies
+npm install
+
+# 3. Install Backend Dependencies
+pip install -r backend/requirements.txt
+
+# 4. Run Development Servers
+# Terminal 1 (Backend):
+python -m uvicorn backend.main:app --port 8086 --reload
+
+# Terminal 2 (Frontend):
+npm run dev
+
+# 5. Compile Windows Executable
+npm run build -- --outDir frontend_build
+pyinstaller desktop.spec --distpath "../" --workpath build --clean
+```
 
 ---
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check [issues page](https://github.com/your-username/GitSearch/issues).
+Feel free to check [issues page](https://github.com/rkkizar777-design/git.store/issues).
 
 > [!TIP]
 > **Star this repository** if GitSearch helps you explore GitHub projects faster! ⭐
+
+---
+
+## 📥 Downloads
+
+[![Download GitSearch](https://img.shields.io/badge/Download-GitSearch.exe%20(v1.0.0)-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/rkkizar777-design/git.store/releases/download/v1.0.0/GitSearch.exe)
 
 ---
 
@@ -152,7 +209,3 @@ This project is licensed under the [MIT License](LICENSE).
 Made with ❤️ for the global open-source developer community.
 
 </div>
-
-### 📥 Downloads
-
-[Download GitSearch.exe (v1.0.0)](https://github.com/rkkizar777-design/git.store/releases/download/v1.0.0/GitSearch.exe)
